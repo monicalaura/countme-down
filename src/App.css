@@ -1,38 +1,94 @@
-.App {
+.main {
   text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color:#E0E2DB;
+  font-size:4rem;
+  font-weight:400;
+  margin-bottom: 0.7rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.controllers{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.length-control{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-right:3rem;
+
 }
 
-.App-link {
-  color: #61dafb;
+.controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding:1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.labels{
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #E0E2DB;
+  cursor:pointer;
 }
+
+.btn-level{
+  padding:0.6rem;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  background: #3D3C3F !important;
+  color: #E0E2DB;
+  background:none;
+  cursor:pointer;
+  
+}
+.btn{
+  border: 5px solid #242426;
+  font-size: 0.7rem;
+}
+
+ .btn:active, .btn:focus, .btn:visited{
+  border-color: #EA3B2E;
+}
+.fa .fa-arrow-down {
+  color: #E0E2DB !important;
+}
+
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size:2.2rem;
+  }
+  .controllers{
+    flex-direction: column;
+  }
+  .length-control{
+    margin-right:0;
+  }
+
+}
+
