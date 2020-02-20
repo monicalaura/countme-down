@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/monicalaura/countme-down/static/css/main.bbb76253.chunk.css",
+    "main.js": "/monicalaura/countme-down/static/js/main.b091f26b.chunk.js",
+    "main.js.map": "/monicalaura/countme-down/static/js/main.b091f26b.chunk.js.map",
+    "runtime-main.js": "/monicalaura/countme-down/static/js/runtime-main.ab118d2c.js",
+    "runtime-main.js.map": "/monicalaura/countme-down/static/js/runtime-main.ab118d2c.js.map",
+    "static/js/2.7409595b.chunk.js": "/monicalaura/countme-down/static/js/2.7409595b.chunk.js",
+    "static/js/2.7409595b.chunk.js.map": "/monicalaura/countme-down/static/js/2.7409595b.chunk.js.map",
+    "index.html": "/monicalaura/countme-down/index.html",
+    "precache-manifest.48bec1c84a47e43be5fb4dbef1f5bc9a.js": "/monicalaura/countme-down/precache-manifest.48bec1c84a47e43be5fb4dbef1f5bc9a.js",
+    "service-worker.js": "/monicalaura/countme-down/service-worker.js",
+    "static/css/main.bbb76253.chunk.css.map": "/monicalaura/countme-down/static/css/main.bbb76253.chunk.css.map",
+    "static/js/2.7409595b.chunk.js.LICENSE.txt": "/monicalaura/countme-down/static/js/2.7409595b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab118d2c.js",
+    "static/js/2.7409595b.chunk.js",
+    "static/css/main.bbb76253.chunk.css",
+    "static/js/main.b091f26b.chunk.js"
+  ]
+}
